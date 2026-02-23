@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Examen Local - Semestre 1</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Roboto',sans-serif;}
+body{background:#f4f6f9;color:#333;}
+
+header{
+background:#1e3a8a;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:50px 20px;
+}
+
+.section-title{
+text-align:center;
+font-size:1.8rem;
+margin-bottom:40px;
+color:#1e3a8a;
+}
+
+.grid{
+display:flex;
+flex-wrap:wrap;
+gap:25px;
+justify-content:center;
+}
+
+.card{
+background:white;
+width:320px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#1e3a8a;
+margin-bottom:10px;
+}
+
+.card p{
+font-size:0.95rem;
+margin-bottom:15px;
+}
+
+.btn{
+display:inline-block;
+padding:8px 15px;
+background:#1e3a8a;
+color:white;
+border-radius:6px;
+margin:5px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ffdd57;
+color:#333;
+}
+
+.badge{
+display:inline-block;
+background:#ffdd57;
+color:#333;
+padding:5px 10px;
+border-radius:20px;
+font-size:0.8rem;
+margin-bottom:10px;
+}
+
+footer{
+background:#1e3a8a;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:60px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>📚 Examen Local - 3AC</h1>
+<p>Préparation Examen Local | Prof B. Sabir</p>
+</header>
+
+<div class="container">
+
+<h2 class="section-title">Examens Disponibles</h2>
+
+<div class="grid">
+
+<div class="card">
+<span class="badge">Année 2024</span>
+<h3>Examen Local 2024</h3>
+<p>Examen officiel avec correction détaillée.</p>
+
+<a href="pdf/examen-local-2024.pdf" target="_blank" class="btn">
+📄 Énoncé
+</a>
+
+<a href="pdf/examen-local-2024-correction.pdf" target="_blank" class="btn">
+✅ Correction
+</a>
+
+</div>
+
+<div class="card">
+<span class="badge">Année 2023</span>
+<h3>Examen Local 2023</h3>
+<p>Sujet complet avec barème.</p>
+
+<a href="pdf/examen-local-2023.pdf" target="_blank" class="btn">
+📄 Énoncé
+</a>
+
+<a href="pdf/examen-local-2023-correction.pdf" target="_blank" class="btn">
+✅ Correction
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Math College - Prof B. Sabir
+</footer>
+
+</body>
+</html>
